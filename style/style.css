@@ -1,3 +1,149 @@
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+header {
+  background-color: #1f2937;
+  margin: 0;
+}
+
+.header-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 200px;
+  padding-top: 10px;
+  padding-bottom: 80px;
+  color: #f9faf8;
+}
+.header-left {
+  font-weight: bold;
+  font-size: 24px;
+}
+.header-right ul {
+  display: flex;
+  gap: 20px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0px 200px;
+  padding-bottom: 80px;
+}
+
+.section1-left h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+
+.section1-left p {
+  color: #e5e7eb;
+  font-size: 18px;
+  max-width: 520px;
+  margin-bottom: 10px;
+}
+
+.section1 button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 4px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.placeholder {
+  background-color: rgb(120, 128, 133);
+  padding: 120px 260px;
+  color: white;
+}
+
+.section2 {
+  margin: 40px 0 80px 0;
+}
+.section2 h2 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.section2-item {
+  width: 110px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.section2-container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.section2-box {
+  border: #3882f6 solid 3.5px;
+  width: 110px;
+  height: 110px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+  max-width: 800px;
+}
+
+.quote-ref {
+  margin-left: 40rem;
+  color: #1f2937;
+  font-weight: 800;
+}
+
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-card {
+  background-color: #3882f6;
+  width: 67.5rem;
+  height: auto;
+  margin: 80px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
