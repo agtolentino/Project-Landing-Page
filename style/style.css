@@ -36,6 +36,7 @@ header {
   gap: 20px;
 }
 
+/* Section 1 Start */
 .section1 {
   display: flex;
   justify-content: space-between;
@@ -64,7 +65,7 @@ header {
   font-size: 18px;
   font-weight: 600;
   border-radius: 4px;
-  padding: 4px 16px;
+  padding: 4px 20px;
   border: none;
   cursor: pointer;
 }
@@ -74,6 +75,13 @@ header {
   padding: 120px 260px;
   color: white;
 }
+
+.placeholder p {
+  max-width: 40rem;
+}
+/* Section 1 End */
+
+/* Section 2 Start */
 
 .section2 {
   margin: 40px 0 80px 0;
@@ -107,6 +115,9 @@ header {
   margin-bottom: 5px;
 }
 
+/* Section 2 End */
+
+/* Section 3 Start */
 .section3 {
   background-color: #e5e7eb;
   padding: 80px 0;
@@ -131,6 +142,9 @@ header {
   font-weight: 800;
 }
 
+/* Section 3 End */
+
+/* Section 4 Styles Start */
 .section4 {
   display: flex;
   align-items: center;
@@ -139,11 +153,45 @@ header {
 
 .action-card {
   background-color: #3882f6;
-  width: 67.5rem;
+  width: 60rem;
   height: auto;
   margin: 80px 0;
   border-radius: 5px;
+  padding: 40px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10rem;
+}
+
+.card-left h3 {
+  color: #f9faf8;
+  font-weight: 500;
+}
+
+.card-left p {
+  color: #f9faf8;
+  font-weight: 200;
+}
+
+.action-card button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 4px 20px;
+  border: solid #f9faf8 1.5px;
+  cursor: pointer;
+}
+
+/* Section 4 Styles End*/
+
+/* footer styles */
+footer {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: center;
+  font-weight: 300;
+  padding: 30px;
 }
